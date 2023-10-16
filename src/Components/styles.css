@@ -29,15 +29,13 @@
   width: 80%;
   height: 30px;
 }
-.chat-reply p {
-  display: inline;
-  margin-left: 0.3rem;
-  border: 2px solid red;
-  width: 100px;
-  height: 100px;
-  padding: 4px;
-  border-radius: 50%;
-}
+
 .chat-reply i {
   font-size: 14pt;
+  margin-left: 3px;
+  position: relative;
+  top: 2px;
+}
+.chat-reply:hover {
+  cursor: pointer;
 }

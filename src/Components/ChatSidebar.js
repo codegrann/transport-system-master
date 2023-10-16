@@ -8,9 +8,7 @@ const ChatSidebar = ({ message }) => {
       <div className="chat-content">{message.content}</div>
       <div className="chat-reply">
         <input placeholder="reply" />
-        <p>
-          <i class="bi bi-send"></i>
-        </p>
+        <i class="bi bi-send"></i>
       </div>
     </div>
   );
