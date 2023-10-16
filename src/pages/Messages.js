@@ -9,13 +9,14 @@ const Messages = () => {
   const messages = [
     {
       id: 1,
-      sender: "User1",
-      content: "Hello!",
+      sender: "Accountant",
+      content: "Hello! Kindly send the invoive",
     },
     {
       id: 2,
       sender: "User2",
-      content: "Hi there!",
+      content:
+        "Hi there! I place an order but have not received any confirmation",
     },
     // ... more messages
   ];
