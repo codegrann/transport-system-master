@@ -250,7 +250,9 @@ ol {
     color: green;
   }
   .bottom-section #bot-1 {
+    /* width: 100px; */
     margin-right: 17px;
+    border: 2px solid red;
   }
   .bottom-section #bot-1,
   .bottom-section #bot-2 {
