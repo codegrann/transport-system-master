@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.header {
+    background-color: white;
+    height: 6vh;
+    width: 100vw;
+    padding: 0%;
+    border-bottom: 1px solid green;
+}
+
+.logo-region {
+    height: 5vh;
+    width: 17.5vw;
+    display: flex;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    align-items: center;
+}
+
+.logo-container img {
+    float: left;
+    margin-right: 0;
+    margin-left: 1.3vw;
+    height: 4.51vh;
+}
+
+.logo-text a {
+    color: rgb(0, 102, 0);
+    white-space: nowrap;
+}
+
+.search-bar {
+    float: left;
+    width: 16.3vw;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 4px rgba(0, 59, 12, 0.452), 0 2px 4px rgba(0, 59, 12, 0.452), 0 2px 4px rgba(0, 59, 12, 0.452), 0 2px 4px rgba(0, 59, 12, 0.452);
+    border-radius: 5px;
+    margin-left: 12vw;
+    margin-top: 9px;
+    align-items: center;
+}
+
+.search-bar input {
+    border: none;
+    padding: 8px;
+    background-color: transparent;
+}
+
+.search-bar button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.search-bar button svg {
+    width: 20px;
+    height: 20px;
+    fill: #333;
+    border-left: 1px solid rgb(156, 155, 155);
+}
+
+.search-bar .focused input {
+    border-color: rgb(235, 11, 11);
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+/* For screens with a maximum width of 768px (e.g., mobile devices) */
+
+@media screen and (max-width: 768px) {
+    /* Adjust styles for mobile screens */
+}
+
+
+/* For screens with a minimum width of 768px and maximum width of 1200px (e.g., tablets) */
+
+@media screen and (min-width: 768px) and (max-width: 1365px) {
+    /* Adjust styles for tablet screens */
+}
+
+
+/* For screens with a minimum width of 1201px (e.g., desktops) */
+
+@media screen and (min-width: 1366px) {
+    .header {
+        background-color: white;
+        height: 6vh;
+        width: 100vw;
+        padding: 0%;
+        border-bottom: 1px solid green;
+    }
+    .logo-region {
+        height: 5vh;
+        width: 17.5vw;
+        display: flex;
+        float: left;
+        margin-top: 5px;
+        margin-left: 5px;
+        align-items: center;
+    }
+    .logo-container img {
+        float: left;
+        margin-right: 0;
+        margin-left: 1.3vw;
+        height: 4.51vh;
+    }
+    .logo-text a {
+        color: rgb(0, 102, 0);
+        white-space: nowrap;
+    }
+    .search-bar {
+        float: left;
+        width: 220px;
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0 2px 4px rgba(0, 59, 12, 0.452), 0 2px 4px rgba(0, 59, 12, 0.452), 0 2px 4px rgba(0, 59, 12, 0.452), 0 2px 4px rgba(0, 59, 12, 0.452);
+        border-radius: 5px;
+        margin-left: 12vw;
+        margin-top: 9px;
+        align-items: center;
+    }
+    .search-bar input {
+        border: none;
+        padding: 8px;
+        background-color: transparent;
+    }
+    .search-bar button {
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        margin-right: 5px;
+    }
+    .search-bar button svg {
+        width: 20px;
+        height: 20px;
+        fill: #333;
+        border-left: 1px solid rgb(156, 155, 155);
+    }
+    .search-bar .focused input {
+        border-color: rgb(235, 11, 11);
+    }
+    a {
+        cursor: pointer;
+        text-decoration: none;
+    }
+}
