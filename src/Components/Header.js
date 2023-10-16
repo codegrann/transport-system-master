@@ -38,6 +38,10 @@ function Header() {
           <SearchIcon />
         </button>
       </div>
+      <div className="notification">
+        <i className="bi bi-bell"></i>
+        <span class="badge">2</span>
+      </div>
     </div>
   );
 }
