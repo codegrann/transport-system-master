@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 .header {
   background-color: white;
-  height: 9vh;
+  height: 6vh;
   width: 100vw;
   padding: 0%;
   border-bottom: 1px solid green;
@@ -31,7 +31,7 @@
 
 .search-bar {
   float: right;
-  width: 16.9vw;
+  width: 16.3vw;
   display: flex;
   background-color: rgb(255, 255, 255);
   box-shadow: 0 2px 4px rgba(0, 59, 12, 0.452), 0 2px 4px rgba(0, 59, 12, 0.452),
