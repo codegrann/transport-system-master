@@ -1,10 +1,8 @@
-import React from 'react'
-import './styles.css'
+// import React from 'react'
+import "./styles.css";
 
 function DataInput() {
-  return (
-    <div>DataInput</div>
-  )
+  return <div>DataInput</div>;
 }
 
-export default DataInput
+export default DataInput;

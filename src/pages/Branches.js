@@ -1,10 +1,8 @@
-import React from 'react'
-import './styles.css'
+// import React from 'react'
+import "./styles.css";
 
 function Branches() {
-  return (
-    <div>Branches</div>
-  )
+  return <div>Branches</div>;
 }
 
-export default Branches
+export default Branches;

@@ -1,10 +1,8 @@
-import React from 'react'
-import './styles.css'
+// import React from 'react'
+import "./styles.css";
 
 function Mails() {
-  return (
-    <div>Mails</div>
-  )
+  return <div>Mails</div>;
 }
 
-export default Mails
+export default Mails;

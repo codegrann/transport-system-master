@@ -1,10 +1,8 @@
-import React from 'react'
-import './styles.css'
+// import React from 'react'
+import "./styles.css";
 
 function Finance() {
-  return (
-    <div>Finance</div>
-  )
+  return <div>Finance</div>;
 }
 
-export default Finance
+export default Finance;

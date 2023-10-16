@@ -1,10 +1,8 @@
-import React from 'react'
-import './styles.css'
+// import React from 'react'
+import "./styles.css";
 
 function RolesPermissions() {
-  return (
-    <div>RolesPermissions</div>
-  )
+  return <div>RolesPermissions</div>;
 }
 
-export default RolesPermissions
+export default RolesPermissions;

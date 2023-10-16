@@ -1,10 +1,8 @@
-import React from 'react'
-import './styles.css'
+// import React from 'react'
+import "./styles.css";
 
 function HumanResource() {
-  return (
-    <div>HumanResource</div>
-  )
+  return <div>HumanResource</div>;
 }
 
-export default HumanResource
+export default HumanResource;
