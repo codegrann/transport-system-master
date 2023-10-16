@@ -16,7 +16,7 @@ const Messages = () => {
       id: 2,
       sender: "User2",
       content:
-        "Hi there! I place an order but have not received any confirmation",
+        "Hi there! I place an order but have not received any confirmationI place an order but have not received any confirmationI place an order but have not received any confirmation",
     },
     // ... more messages
   ];

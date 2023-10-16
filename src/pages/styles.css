@@ -145,7 +145,7 @@ ol {
 }
 .messages-list {
   width: 35%;
-  height: auto;
+  /* height: auto; */
   border: 2px solid black;
   display: flex;
   flex-direction: column;

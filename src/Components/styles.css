@@ -4,15 +4,20 @@
   border: 1px solid rgb(118, 110, 110);
   width: 50%;
   height: 100%;
+  display: grid;
+  /* flex-direction: column; */
   /* overflow-x: hidden; */
 }
 .chat-header {
   background-color: rgb(106, 97, 97);
   color: white;
   padding: 0.3rem;
+  height: 26px;
 }
 .chat-content {
   max-width: 280px;
+  height: auto;
+  /* min-height: 30px; */
   border: 1px solid red;
   border-radius: 3px;
   padding: 0.3rem;
@@ -22,9 +27,11 @@
 }
 .chat-reply {
   width: 100%;
-  position: relative;
-  top: 77%;
+  align-self: end;
+  /* position: relative; */
+  /* top: 77%; */
   padding-inline: 0.4rem;
+  padding-block: 0.2rem;
 }
 .chat-reply input {
   width: 80%;
