@@ -2,6 +2,7 @@
   border: 1px solid rgb(118, 110, 110);
   width: 50%;
   height: 100%;
+  /* overflow-x: hidden; */
 }
 .chat-header {
   background-color: rgb(106, 97, 97);
@@ -15,4 +16,14 @@
   padding: 0.3rem;
   margin-left: 1rem;
   margin-top: 1rem;
+}
+.chat-reply {
+  width: 100%;
+  position: relative;
+  top: 79%;
+  padding-inline: 0.4rem;
+}
+.chat-reply input {
+  width: 80%;
+  height: 60px;
 }

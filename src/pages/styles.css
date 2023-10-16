@@ -136,7 +136,7 @@ ol {
 /* For Messages Section */
 .messages-container {
   border: 2px solid red;
-  height: 80vh;
+  height: 88vh;
   overflow-y: scroll;
   padding: 1rem;
   display: flex;
