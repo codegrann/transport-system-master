@@ -1,3 +1,5 @@
+/* @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"); */
+
 .chat-sidebar {
   border: 1px solid rgb(118, 110, 110);
   width: 50%;
@@ -20,10 +22,22 @@
 .chat-reply {
   width: 100%;
   position: relative;
-  top: 79%;
+  top: 77%;
   padding-inline: 0.4rem;
 }
 .chat-reply input {
   width: 80%;
-  height: 60px;
+  height: 30px;
+}
+.chat-reply p {
+  display: inline;
+  margin-left: 0.3rem;
+  border: 2px solid red;
+  width: 100px;
+  height: 100px;
+  padding: 4px;
+  border-radius: 50%;
+}
+.chat-reply i {
+  font-size: 14pt;
 }
