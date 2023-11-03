@@ -1,13 +1,30 @@
 import React, { useState, useEffect } from "react";
 import MailList from "../Components/MailList";
-import MailViewer from "./MailViewer";
-import ComposeMail from "./ComposeMail";
+import MailViewer from "../Components/MailViewer";
+import ComposeMail from "../Components/ComposeMail";
 import "./styles.css";
 
 const MailingPage = () => {
   const [selectedMail, setSelectedMail] = useState(null);
-  const [mails, setMails] = useState([]);
+  // const [mails, setMails] = useState([]);
   const [composeMode, setComposeMode] = useState(false);
+
+  const initialEmails = [
+    {
+      id: 1,
+      subject: "Regarding Your Shipment",
+      content:
+        "Your shipment will arrive on Monday. Thank you for choosing our services.",
+    },
+    {
+      id: 2,
+      subject: "Invoice for Transportation Services",
+      content:
+        "Attached is the invoice for your recent transportation services. Please review and make payment at your earliest convenience.",
+    },
+  ];
+
+  const [mails, setMails] = useState(initialEmails);
 
   // Fetch or load email data, e.g., from an API
   useEffect(() => {
