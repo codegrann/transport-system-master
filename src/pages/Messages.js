@@ -4,7 +4,7 @@ import "./styles.css";
 
 const Messages = () => {
   const [selectedMessage, setSelectedMessage] = useState(null);
-  const [draftMessages, setDraftMessages] = useState({});
+  const [draftMessage, setDraftMessage] = useState("");
 
   // Assuming you have a list of messages like this
   const messages = [
@@ -25,15 +25,20 @@ const Messages = () => {
   const selectMessage = (message) => {
     // Save the draft message to the previously selected chat
     if (selectedMessage) {
-      draftMessages[selectedMessage.id] = message.draft;
+      messages.find((msg) => msg.id === selectedMessage.id).draft =
+        draftMessage;
     }
     setSelectedMessage(message);
+    // Load the draft message from the newly selected chat, if available
+    if (message.draft) {
+      setDraftMessage(message.draft);
+    } else {
+      setDraftMessage("");
+    }
   };
 
-  const handleDraftChange = (draft) => {
-    const updatedDrafts = { ...draftMessages };
-    updatedDrafts[selectedMessage.id] = draft;
-    setDraftMessages(updatedDrafts);
+  const handleDraftChange = (e) => {
+    setDraftMessage(e.target.value);
   };
 
   return (
@@ -52,7 +57,7 @@ const Messages = () => {
       {selectedMessage && (
         <ChatSidebar
           message={selectedMessage}
-          draftMessage={draftMessages[selectedMessage.id] || ""}
+          draftMessage={draftMessage}
           onDraftChange={handleDraftChange}
         />
       )}
