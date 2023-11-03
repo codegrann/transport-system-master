@@ -93,6 +93,9 @@ a {
   top: -0.6rem;
   left: -0.5rem;
 }
+.notification .badge:hover {
+  cursor: pointer;
+}
 /* For screens with a maximum width of 768px (e.g., mobile devices) */
 
 @media screen and (max-width: 768px) {
