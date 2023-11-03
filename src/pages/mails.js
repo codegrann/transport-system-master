@@ -6,7 +6,6 @@ import "./styles.css";
 
 const MailingPage = () => {
   const [selectedMail, setSelectedMail] = useState(null);
-  // const [mails, setMails] = useState([]);
   const [composeMode, setComposeMode] = useState(false);
 
   const initialEmails = [
