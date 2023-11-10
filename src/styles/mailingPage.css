@@ -26,3 +26,33 @@
 .mail-item:hover {
   cursor: pointer;
 }
+.mail-viewer {
+  border: 1px solid rgb(118, 110, 110);
+  width: 50%;
+  height: 90%;
+  display: grid;
+  border-radius: 3px;
+  /* flex-direction: column; */
+  /* row-gap: 1px; */
+  /* overflow-x: hidden; */
+}
+.mail-subject {
+  /* background-color: rgb(106, 97, 97); */
+  background-color: rgb(3, 85, 3);
+  color: white;
+  padding: 0.3rem;
+  height: 26px;
+  border-radius: 3px 3px 0 0;
+}
+.mail--content {
+  max-width: 280px;
+  height: 50px;
+  overflow: scroll;
+  /* min-height: 40px; */
+  border: 1px solid red;
+  border-radius: 3px;
+  padding: 0.3rem;
+  margin-left: 1rem;
+  margin-top: -8rem;
+  font-size: 10pt;
+}
