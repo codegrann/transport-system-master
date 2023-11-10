@@ -4,7 +4,9 @@ import "../styles/mailingPage.css";
 const MailList = ({ mails, onMailSelect, onComposeClick }) => {
   return (
     <div className="mail-list">
-      <button onClick={onComposeClick}>Compose</button>
+      <button onClick={onComposeClick} className="compose-btn">
+        Compose
+      </button>
       <ul>
         {mails.map((mail) => (
           <li

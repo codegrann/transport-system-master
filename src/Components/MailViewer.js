@@ -6,8 +6,8 @@ const MailViewer = ({ mail }) => {
     <div className="mail-viewer">
       {mail ? (
         <div>
-          <h2>{mail.subject}</h2>
-          <p>{mail.content}</p>
+          <h2 className="mail-subject">{mail.subject}</h2>
+          <p className="mail-content">{mail.content}</p>
         </div>
       ) : (
         <p>Select or compose an email to view.</p>
