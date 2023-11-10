@@ -21,7 +21,8 @@
 }
 .compose-btn {
   background: transparent;
-  border: none;
+  /* border: none; */
+  border: 1px solid red;
   box-shadow: -1px -1px grey, 1p 1px grey;
 }
 .mail-item {
