@@ -67,14 +67,12 @@
   /* border-radius: 3px 3px 0 0; */
 }
 .mail-content {
-  /* max-width: 280px; */
-  /* height: 50px; */
-  /* overflow: scroll; */
-  /* min-height: 40px; */
-  /* border: 1px solid red; */
-  /* border-radius: 3px; */
-  /* padding: 0.3rem; */
-  /* margin-left: 1rem; */
-  /* margin-top: -8rem; */
-  /* font-size: 10pt; */
+  max-width: 280px;
+  min-height: 40px;
+  border: 1px solid red;
+  border-radius: 3px;
+  padding: 0.3rem;
+  margin-left: 0.7rem;
+  margin-top: -0.5rem;
+  font-size: 10pt;
 }
