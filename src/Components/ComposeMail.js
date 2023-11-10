@@ -13,7 +13,7 @@ const ComposeMail = ({ onClose }) => {
 
   return (
     <div className="compose-mail">
-      <div>
+      <div className="inputs">
         <input
           type="text"
           placeholder="Subject"
@@ -21,7 +21,7 @@ const ComposeMail = ({ onClose }) => {
           onChange={(e) => setSubject(e.target.value)}
         />
       </div>
-      <div>
+      <div className="inputs">
         <textarea
           placeholder="Compose your email..."
           value={content}
