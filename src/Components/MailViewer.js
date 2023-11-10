@@ -3,9 +3,9 @@ import "../styles/mailingPage.css";
 
 const MailViewer = ({ mail }) => {
   return (
-    <div className="mail-viewer">
+    <div>
       {mail ? (
-        <div>
+        <div className="mail-viewer">
           <h2 className="mail-subject">{mail.subject}</h2>
           <p className="mail-content">{mail.content}</p>
         </div>
