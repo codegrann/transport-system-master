@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/mailingPage.css";
 
 const MailList = ({ mails, onMailSelect, onComposeClick }) => {
   return (

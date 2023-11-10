@@ -3,6 +3,7 @@ import MailList from "../Components/MailList";
 import MailViewer from "../Components/MailViewer";
 import ComposeMail from "../Components/ComposeMail";
 import "./styles.css";
+import "../styles/mailingPage.css";
 
 const MailingPage = () => {
   const [selectedMail, setSelectedMail] = useState(null);
