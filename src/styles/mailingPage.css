@@ -1,0 +1,28 @@
+.mailing-page {
+  border: 2px solid red;
+  height: 88vh;
+  overflow-y: scroll;
+  padding: 1rem;
+  display: flex;
+  column-gap: 0.5rem;
+  /* justify-content: ; */
+}
+.mail-list {
+  width: 35%;
+  /* height: auto; */
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.3rem;
+  /* justify-content: flex; */
+}
+.mail-item {
+  border: 1px solid rgb(139, 145, 139);
+  padding-block: 0.4rem;
+  padding-inline: 0.5rem;
+  border-radius: 2px;
+  font-size: 10pt;
+}
+.mail-item:hover {
+  cursor: pointer;
+}

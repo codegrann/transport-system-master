@@ -7,7 +7,11 @@ const MailList = ({ mails, onMailSelect, onComposeClick }) => {
       <button onClick={onComposeClick}>Compose</button>
       <ul>
         {mails.map((mail) => (
-          <li key={mail.id} onClick={() => onMailSelect(mail)}>
+          <li
+            key={mail.id}
+            className="mail-item"
+            onClick={() => onMailSelect(mail)}
+          >
             {mail.subject}
           </li>
         ))}
