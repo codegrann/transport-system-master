@@ -58,8 +58,6 @@
   /* row-gap: 1px; */
   /* overflow-x: hidden; */
 }
-.mail-reader {
-}
 .mail-subject {
   background-color: rgb(3, 85, 3);
   color: white;
@@ -78,4 +76,12 @@
   margin-left: 0.7rem;
   margin-top: -0.5rem;
   font-size: 10pt;
+}
+
+.compose-mail {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 30%;
+  left: 50%;
 }

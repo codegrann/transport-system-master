@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../styles/mailingPage.css";
 
 const ComposeMail = ({ onClose }) => {
   const [subject, setSubject] = useState("");
